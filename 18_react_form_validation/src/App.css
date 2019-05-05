@@ -1,0 +1,52 @@
+body {
+  background: #343b48;
+  color: #343b48;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background: #efefef;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: #fdf4f3;
+  background-image: url(danger.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  border: 1px solid #FF7761;
+}
+
+button {
+  cursor: pointer;
+  width: 100%;
+  background: #31bfc9;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  text-align: center;
+  padding:10px;
+  color: #fff;
+  border: 0px;
+}
+
+input, textarea {
+  border: 1px solid #31bfc9;
+  padding: 10px;
+  width: calc(100% - 20px);
+  margin: 5px 0px;
+}
+
+#alertMessage {
+  color: #FF7761;
+  display: block;
+  margin-top: 10px;
+}
+
+.green {
+  color: #76b75b!important;
+}
